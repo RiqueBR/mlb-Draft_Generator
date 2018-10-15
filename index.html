@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/app.js"></script>
+  <title>Title</title>
+</head>
+<body>
+
+<h1>Fantasy Baseball Draft</h1>
+
+<form id="start-form">
+  <div class="form-object">
+    <label for="name" class="primary">Name:</label>
+    <input type="text" id="name" required>
+  </div>
+  <div class="form-object">
+    <label for="team" class="primary">Team:</label>
+    <input type="text" id="team" required>
+  </div>
+  <div class="form-object">
+    <label for="position" class="primary" required>Position:</label>
+    <select id="position">
+    <option value="" disable selected></option>
+    <option value="Left field">Left Field</option>
+    <option value="Center field">Center Field</option>
+    <option value="Right field">Right Field</option>
+    <option value="Short stop">Short Stop</option>
+    <option value="First base">First Base</option>
+    <option value="Second base">Second Base</option>
+    <option value="Third base">Third Base</option>
+    <option value="Pitcher">Pitcher</option>
+    <option value="Catcher">Catcher</option>
+    <option value="Batter">Batter</option>
+    </select>
+  </div>
+  <input type="submit" name="" id="">
+</form>
+
+
+<h1>Player List:</h1>
+<div id="end-form"></div>
+<input type="button" value="Delete All" id="deleteAll"/>
+
+<div class="image-box">
+  <img src="images/red-sox.jpg"/>
+</div>
+
+
+</body>
+</html>
