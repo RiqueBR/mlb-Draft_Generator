@@ -48,3 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const deleteButton = document.querySelector('#deleteAll')
   deleteButton.addEventListener('click', handleDeleteButton)
 });
+
+
+// add a Radio button for something
+
+// also, it might be useful to use event.target.elemnts to
+// check the elements in our form. 

@@ -1,9 +1,9 @@
 body{
   font-size: 30px;
   font-family: verdana;
-  color: black;
-  /* background-image: url("https://unsplash.com/photos/gNYQxI5ufII");
-  background-size: cover; */
+  color: white;
+  background-image: url("../images/red-sox.jpg");
+  background-size: cover;
 }
 
 .image-box {
@@ -25,3 +25,8 @@ img {
 h1 {
 text-align: center;
 }
+
+
+
+/* Remember to add a background image, boxes that contains the form,
+and finally a box with the elements created (perhaps an image as well)*/
