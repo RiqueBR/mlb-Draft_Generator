@@ -2,8 +2,8 @@ body{
   font-size: 30px;
   font-family: verdana;
   color: white;
-  background-image: url("../images/red-sox.jpg");
-  background-size: cover;
+  background-image: url("../images/baseballpic3.jpg");
+  background-size: 100% auto;
 }
 
 .image-box {
@@ -20,16 +20,23 @@ body{
 
 #start-form {
   text-align: center;
+  padding-top: 25px;
 }
 
 img {
   max-width: 100%;
+  max-height: 80%;
 }
 
 h1 {
 text-align: center;
+padding-top: 0;
+margin-top: 0;
 }
 
+h1.player-list {
+  padding-top: 10px;
+}
 
 
 /* Remember to add a background image, boxes that contains the form,
